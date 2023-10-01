@@ -1,0 +1,14 @@
+C:\Users\mayra\OneDrive\Documentos\armazen2\bin\Debug\net7.0\armazen2.exe
+C:\Users\mayra\OneDrive\Documentos\armazen2\bin\Debug\net7.0\armazen2.deps.json
+C:\Users\mayra\OneDrive\Documentos\armazen2\bin\Debug\net7.0\armazen2.runtimeconfig.json
+C:\Users\mayra\OneDrive\Documentos\armazen2\bin\Debug\net7.0\armazen2.dll
+C:\Users\mayra\OneDrive\Documentos\armazen2\bin\Debug\net7.0\armazen2.pdb
+C:\Users\mayra\OneDrive\Documentos\armazen2\obj\Debug\net7.0\armazen2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayra\OneDrive\Documentos\armazen2\obj\Debug\net7.0\armazen2.AssemblyInfoInputs.cache
+C:\Users\mayra\OneDrive\Documentos\armazen2\obj\Debug\net7.0\armazen2.AssemblyInfo.cs
+C:\Users\mayra\OneDrive\Documentos\armazen2\obj\Debug\net7.0\armazen2.csproj.CoreCompileInputs.cache
+C:\Users\mayra\OneDrive\Documentos\armazen2\obj\Debug\net7.0\armazen2.dll
+C:\Users\mayra\OneDrive\Documentos\armazen2\obj\Debug\net7.0\refint\armazen2.dll
+C:\Users\mayra\OneDrive\Documentos\armazen2\obj\Debug\net7.0\armazen2.pdb
+C:\Users\mayra\OneDrive\Documentos\armazen2\obj\Debug\net7.0\armazen2.genruntimeconfig.cache
+C:\Users\mayra\OneDrive\Documentos\armazen2\obj\Debug\net7.0\ref\armazen2.dll
