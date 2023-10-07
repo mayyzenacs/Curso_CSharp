@@ -1,5 +1,5 @@
 
-class Aranha():
+class Aranha:
     def __init__(self, tipo, numero_pernas):
         self.tipo = tipo
         self.numero_pernas = numero_pernas
@@ -13,8 +13,7 @@ class Aranhas_assassinas:
 
 class Aranha_da_tasmania(Aranhas_assassinas):
     def __init__(self, tipo, numero_pernas):
-        self.tipo = tipo
-        self.numero_pernas = numero_pernas    
+        super().__init__(tipo, numero_pernas)   
 
 class Aranha_eletrica(Aranhas_assassinas):
     pass
