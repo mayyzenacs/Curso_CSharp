@@ -13,5 +13,14 @@ cardio = [""]
 
 ficha = {}
 
+a = int(input("Quantos exercicios voce quer? "))
+
+for 
+    
 print(choice(peito))
+print(choice(costas))
+print(choice(ombros))
+print(choice(triceps))
+print(choice(panturrilha))
+print(choice(perna))
 

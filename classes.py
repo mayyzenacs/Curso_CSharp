@@ -12,8 +12,8 @@ class Aranhas_assassinas:
 
 
 class Aranha_da_tasmania(Aranhas_assassinas):
-    def __init__(self, poder, cor, tipo, numero_pernas, mata = True):
-        super().__init__(poder, cor, tipo, numero_pernas, mata=True)
+    def __init__(self, venenosa, **kw):
+        self.venenosa = venenosa
 
 class Aranha_eletrica(Aranhas_assassinas):
     pass
