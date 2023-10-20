@@ -1,4 +1,4 @@
-from random import choice
+from random import sample
 
 peito = ["supino vertical","supino reto/reclinado/inclinado","peck deck","crossover","pullover"]
 costas = ["pulley da frente","pulley triangulo","pulley romano","remada baixa","remada cavalinho","remada unilateral","remada curvada","pulldown"]
@@ -11,16 +11,32 @@ abdomen = [""]
 gluteos = [""]
 cardio = [""]
 
-ficha = {}
+'''
+treino ABC
+A = peito, ombros, triceps
+B = costas, biceps, abdomen
+C = perna completa
+'''
+def linha(tam=35):
+    print("-"*tam)
 
-a = int(input("Quantos exercicios voce quer? "))
+ficha = []
 
-for 
-    
-print(choice(peito))
-print(choice(costas))
-print(choice(ombros))
-print(choice(triceps))
-print(choice(panturrilha))
-print(choice(perna))
+a = int(input("Quantos exercícios por grupo muscular? "))    
 
+treinoA = {}
+treinoA["peito"] = sample(peito,a)
+treinoA["ombro"] = sample(ombros,a)
+treinoA["triceps"] = sample(triceps,a)
+#print(treinoA)
+for chave, valor in treinoA.items():
+    linha()
+    print(f"- {chave} -".center(35))
+    for exercicio in valor:
+        print(f"{exercicio}")
+ficha["Treino A"] = treinoA
+linha()
+
+
+
+treinoB = {}
