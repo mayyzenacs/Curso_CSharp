@@ -5,6 +5,7 @@ class Bicicleta:
         self.ano = ano
         self.valor = valor 
 
+    @property
     def buzinar(self):
         print("Bibi")
     def parar(self):
