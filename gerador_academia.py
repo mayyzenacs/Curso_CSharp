@@ -24,19 +24,32 @@ ficha = []
 
 a = int(input("Quantos exercícios por grupo muscular? "))    
 
-treinoA = {}
-treinoA["peito"] = sample(peito,a)
-treinoA["ombro"] = sample(ombros,a)
-treinoA["triceps"] = sample(triceps,a)
-#print(treinoA)
-for chave, valor in treinoA.items():
+
+def treinoA():
+    treinoA = {}
+    treinoA["peito"] = sample(peito,a)
+    treinoA["ombro"] = sample(ombros,a)
+    treinoA["triceps"] = sample(triceps,a)
+    #print(treinoA)
+    for chave, valor in treinoA.items():
+        linha()
+        print(f"- {chave} -".center(35))
+        for exercicio in valor:
+            print(f"{exercicio}")
+    ficha.append(treinoA)
+
+def treinoB():    
+    treinoB = {}
+    treinoB["costas"] = sample(costas,a)
+    treinoB["biceps"] = sample(biceps,a)
+    treinoB["perna"] = sample(perna,a)
+    #print(treinoA)
+    for chave, valor in treinoB.items():
+        linha()
+        print(f"- {chave} -".center(35))
+        for exercicio in valor:
+            print(f"{exercicio}")
     linha()
-    print(f"- {chave} -".center(35))
-    for exercicio in valor:
-        print(f"{exercicio}")
-ficha["Treino A"] = treinoA
-linha()
 
-
-
-treinoB = {}
+treinoA()
+treinoB()
