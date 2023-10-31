@@ -8,6 +8,7 @@ class Bicicleta:
     @property
     def buzinar(self):
         print("Bibi")
+    @buzinar.setter
     def parar(self):
         print("bicicleta parada")
     def correr(self):
