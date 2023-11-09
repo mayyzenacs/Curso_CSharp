@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mayra\\OneDrive\\Documentos\\GitHub\\armazem2\\armazen2.csproj": {}
+    "C:\\Users\\mayra\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\armazen2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mayra\\OneDrive\\Documentos\\GitHub\\armazem2\\armazen2.csproj": {
+    "C:\\Users\\mayra\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\armazen2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayra\\OneDrive\\Documentos\\GitHub\\armazem2\\armazen2.csproj",
+        "projectUniqueName": "C:\\Users\\mayra\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\armazen2.csproj",
         "projectName": "armazen2",
-        "projectPath": "C:\\Users\\mayra\\OneDrive\\Documentos\\GitHub\\armazem2\\armazen2.csproj",
+        "projectPath": "C:\\Users\\mayra\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\armazen2.csproj",
         "packagesPath": "C:\\Users\\mayra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayra\\OneDrive\\Documentos\\GitHub\\armazem2\\obj\\",
+        "outputPath": "C:\\Users\\mayra\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mayra\\AppData\\Roaming\\NuGet\\NuGet.Config"
